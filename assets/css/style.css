@@ -28,6 +28,8 @@
 /* footer */
 
 .footer {
+	position: relative;
+	text-align: left;
 	padding-top: 3%;
 	padding-left: 6%;
 	padding-bottom: 1%;
@@ -57,7 +59,7 @@
 .footer .triangle {
 	width: 0;
 	height: 0;
-
+	position: absolute;
 	border-bottom: 20px solid #E9CE10;
 	border-left: 20px solid transparent;
 }
@@ -73,6 +75,7 @@
 }
 
 #footer-end a {
+	position: absolute;
 	text-decoration: none;
 	color: white;
 }
@@ -260,6 +263,7 @@ header .banner .teksBanner {
 }
 
 .teamProject {
+	top: auto;
 	background-color: #E9CE10;
 	opacity: 0.75;
 	filter: Alpha(opacity=75);
@@ -593,17 +597,25 @@ article {
 .content-section,
 .sidebar-section {
 	background: #fff;
+	text-align: center;
 }
 
 .content-section img {
 	width: 300px;
 	height: 300px;
-	/* margin-right: 3%;
+	margin-right: 3%;
 	margin-left: 3%;
-	margin-top: 3%; */
+	margin-top: 3%;
 	top: auto;
 	left: auto;
 	right: auto;
+}
+
+
+#img-section {
+	text-align: center;
+	left: 5%;
+	right: 5%;
 }
 
 .content-section h2 {
